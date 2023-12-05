@@ -27,7 +27,6 @@ export default{
         AppFilterVue,
         MovieAddFormVue,
         MovieListVue,
-    
     }
 }
 </script>
