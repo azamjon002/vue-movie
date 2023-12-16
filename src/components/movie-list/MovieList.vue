@@ -12,30 +12,13 @@ export default{
     components:{
         MovieListItem,
     },
-    data (){
-        return {
-            movies : [
-                {
-                    name:'Omar',
-                    viewers:811,
-                    favourite:false,
-                    like:true
-                },
-                {
-                    name:'Empire of osman',
-                    viewers:711,
-                    favourite:false,
-                    like:true
-                },
-                {
-                    name:'ertugrul',
-                    viewers:411,
-                    favourite:true,
-                    like:false
-                },
-            ]
+    props: {
+        movies:{
+            movies: Array,
+            required: true
         }
     }
+
 }
 </script>
 
